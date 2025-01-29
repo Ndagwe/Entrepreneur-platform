@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+header {
+    background: #007bff;
+    color: #fff;
+    padding: 15px 0;
+}
+
+header h1 {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul {
+    display: inline;
+    float: right;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: blue;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px;
+    background: #e3f2fd;
+}
+
+.hero-img {
+    width: 100%;
+    max-width: 600px;
+    margin-top: 20px;
+}
+
+.search-bar select, .search-bar button {
+    padding: 10px;
+    margin: 5px;
+}
+
+.courses, .why-choose-us, .testimonials, .newsletter {
+    text-align: center;
+    padding: 50px;
+}
+
+.course-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 250px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.card img {
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+.why-choose-us ul {
+    list-style: none;
+    padding: 0;
+}
+
+.why-choose-us ul li {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.why-choose-us ul img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.testimonial-card img {
+    width: 80px;
+    border-radius: 50%;
+}
+
+button {
+    background: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.social-icons img {
+    width: 30px;
+    margin: 5px;
+}
+/* Rating Stars */
+.rating {
+    color: #ffca28;  /* Gold color */
+    font-size: 24px;  /* Slightly larger */
+    letter-spacing: 2px;  /* Adds space between stars */
+    text-align: center; /* Ensures it's properly aligned */
+    margin-top: 10px; /* Adds spacing from testimonial text */
+}
+
+
+
